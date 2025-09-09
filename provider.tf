@@ -11,7 +11,7 @@ terraform {
   backend "s3" {
     bucket = "im-gexecik-u-xelaci-s3-backet"
     key    = "my-terraform/terraform.tfstate"
-    region = "us-west-2"
+    region = "us-east-1"
     #profile = "default"
   }
 }
